@@ -1,0 +1,3 @@
+-=-=- v0.2.0 Alpha - First Public Release -=-=-
++Added basic version checking library
++Fixed issues when not being in a guild and addon is running

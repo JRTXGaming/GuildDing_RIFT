@@ -1,0 +1,45 @@
+Identifier = "GuildDing"
+
+Name =
+{
+	English = "Guild Ding",
+}
+
+NameShort = "GuildDing"
+
+Description =
+{
+	English = "Provides a levelup announcement to the Guild",
+}
+
+Author = "Calystos"
+
+Version = "0.2.0"
+
+Email = "calystos@virgin.net"
+
+Environment = "2.7"
+
+RunOnStartup =
+{
+	"GuildDing.lua",
+}
+
+SavedVariables  =
+{
+}
+
+Embed =
+{
+	["libs/LibVersionCheck"] = true,
+}
+
+Dependencies =
+{
+	LibVersionCheck = {"required", "before"},
+}
+
+-- X-Curse-Packaged-Version: v0.2.0 Alpha
+-- X-Curse-Project-Name: Guild Ding
+-- X-Curse-Project-ID: Calystos
+-- X-Curse-Repository-ID: rift/calystos/mainline
